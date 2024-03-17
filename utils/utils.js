@@ -9,7 +9,7 @@ module.exports = {
   // 相关信息
   information: {
     type: "毕业设计",
-    author: "2020级计算机科学与技术王涛",
+    author: "2020级-计算机科学与技术-王涛",
     teacher: "唐勇"
   }
 }

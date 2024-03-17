@@ -53,14 +53,5 @@ module.exports = {
     north: 30.767615,
   },
 
-  // 默认地点
-  default_point: {
-    name: "南门",
-    aliases: "学校正大门",
-    img: "https://cdnjson.com/images/2023/02/26/schoolgate_dongmen.jpg",
-    desc: "学校正大门\n可以通行行人和车辆",
-    latitude: '30.747482',
-    longitude: '103.919379',
-  },
 
 }

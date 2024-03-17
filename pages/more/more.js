@@ -22,9 +22,12 @@ Page({
         feedback: media.feedback,
 
         share: media.share,
-        miniprogramming_ma: utils.miniprogramming_ma,
+        miniprogramming_ma: media.miniprogramming_ma,
 
-        admin: media.admin
+        admin: media.admin,
+
+        //是否多次点击进入管理页面
+        toadminchecked:true
     },
 
     onLoad: function () {},
@@ -45,7 +48,7 @@ Page({
     aboutus() {
         wx.showModal({
             title: '特别说明',
-            content: '本项目同时应用于2023年中国大学生计算机设计大赛，未经允许，不得随意用于各类比赛项目\n\n作品名：云上高校导航\n作品编号：2023042719\n奖项：广西赛区 软件应用与开发 - 移动应用开发（非游戏类） 三等奖',
+            content: '本项目应用于2024届计算机学院毕业毕业，未经允许，不得随意用于各类比赛项目',
         })
     },
     // 联系作者
@@ -91,6 +94,7 @@ Page({
             title: '推荐给好友',
             content: '点击确认即可查看小程序码\n长按小程序码即可转发给好友',
             success: (res => {
+              
                 if (res.confirm == true) {
                     wx.previewImage({
                         current: this.data.miniprogramming_ma, // 当前显示图片的http链接
@@ -99,13 +103,19 @@ Page({
                 }
             }),
             fail(res) {
-                //console.log('fail')
+                console.log('fail')
             }
         })
     },
 
     // 管理界面
     toadmin() {
+      //第一次点击
+      if(this.data.toadminchecked){
+        //对云函数操作加锁
+        this.setData({
+          toadminchecked:false
+        })
         wx.cloud.callFunction({
             name: 'login',
             complete: res => {
@@ -119,19 +129,31 @@ Page({
                         duration: 1500
                     })
                     setTimeout(() => {
+                      //对云函数操作解锁
+                      this.setData({
+                        toadminchecked:true
+                      })
                         wx.navigateTo({
                             url: '../../pages/admin/admin',
                         })
                     }, 1500)
                 } else {
+                  this.setData({
+                    toadminchecked:true
+                  })
                     wx.showToast({
                         title: '抱歉，同志\n您还不是管理员哦',
                         icon: 'none',
                         duration: 1500
                     })
                 }
+               
             }
         })
+      }
+      else{
+        console.log("重复点击！")
+      }
     },
 
     // 获取openid

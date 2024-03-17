@@ -32,7 +32,7 @@
           <view class="card-container-container-title-title">操作</view>
         </view>
 
-        <view class="card-container-container-title" wx:for="{{category_list}}" wx:key="*this">
+        <view class="card-container-container-title" wx:for="{{category_list}}" wx:key="index">
           <view class="card-container-container-title-title">{{index+1}}</view>
           <view class="card-container-container-title-title">{{item.name}}</view>
           <view class="card-container-container-title-title">

@@ -2,9 +2,9 @@
 <view>
     <view class="card">
         <view class="card-top">
-            <view class="card-top-title left {{sid == 1?'choose':''}}" bindtap="click1">
+            <!-- <view class="card-top-title left {{sid == 1?'choose':''}}" bindtap="click1">
                 地图
-            </view>
+            </view> -->
 
             <view class="card-top-title {{sid == 2?'choose':''}}" bindtap="click2">
                 轮播图
@@ -19,7 +19,7 @@
             </view>
         </view>
 
-        <view wx:if="{{sid == 1}}" class="card-container">
+        <!-- <view wx:if="{{sid == 1}}" class="card-container">
             <view class="card-container-title">
                 <view class="card-container-title-font">
                     地图管理
@@ -63,7 +63,7 @@
                     <image style="width: 240px;height: auto;" src="{{map}}" mode="widthFix" />
                 </view>
             </view>
-        </view>
+        </view> -->
 
         <view wx:if="{{sid == 2}}" class="card-container">
             <view class="card-container-title">

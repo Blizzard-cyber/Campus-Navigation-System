@@ -15,7 +15,7 @@
             <view class="list-title-middle">地点</view>
             <view class="list-title-right">浏览次数</view>
         </view>
-        <view class="list-result" wx:for="{{list}}" wx:key="*this" data-s_id="{{item.s_id}}">
+        <view class="list-result" wx:for="{{list}}" wx:key="index" data-s_id="{{item.s_id}}">
             <view class="list-result-left">
                 {{index+1+(pagination.current-1)*pagination.pageSize}}
             </view>

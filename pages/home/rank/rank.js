@@ -75,7 +75,7 @@ Page({
                 //console.log('success', res.result.data.data)
                 //console.log('success', res.result.pagination)
                 wx.stopPullDownRefresh()
-                console.log(res)
+                //console.log(res)
                 that.setData({
                     list: res.result.data.data,
                     pagination: res.result.pagination
