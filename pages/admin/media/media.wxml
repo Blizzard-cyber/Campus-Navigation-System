@@ -6,7 +6,7 @@
                 地图
             </view> -->
 
-            <view class="card-top-title {{sid == 2?'choose':''}}" bindtap="click2">
+            <view class="card-top-title left {{sid == 2?'choose':''}}" bindtap="click2">
                 轮播图
             </view>
 

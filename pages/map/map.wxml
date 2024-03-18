@@ -37,7 +37,23 @@
   </scroll-view>
 </view>
 
-<map style="width: 100%; height: {{windowHeight-180}}px;" id="map" subkey="{{subKey}}" latitude="{{latitude}}" longitude="{{longitude}}" scale="{{scale}}" min-scale="{{minscale}}" show-location="{{showLocation}}" enable-poi="{{enablepoi}}" markers="{{markers}}" include-points="True" polyline="{{polyline}}" bindmarkertap="markertap" >
+<map 
+    style="width: 100%; height: {{windowHeight-180}}px;" 
+    id="map" 
+    subkey="{{subKey}}"
+    latitude="{{latitude}}" 
+    longitude="{{longitude}}"
+    scale="{{scale}}"
+    min-scale="{{minscale}}"
+    show-location="{{showLocation}}"
+    enable-poi="{{enablepoi}}" 
+    markers="{{markers}}" 
+    polyline="{{polyline}}"
+    bindmarkertap="markertap"
+    enable-3D
+    enable-rotate
+    show-compass
+>
 
   <view class="map_right_card" style="margin-top: {{windowHeight-375}}px;">
 

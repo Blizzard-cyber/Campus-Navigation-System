@@ -11,7 +11,7 @@ module.exports = {
   latitude: '30.74903',
 
   // 是否展示 POI 点
-  enablepoi: false,
+  enablepoi: true,
   // 是否显示带有方向的当前定位点
   showLocation: true,
   // 缩放级别

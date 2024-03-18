@@ -563,7 +563,7 @@ Page({
         var points = Array.from(this.data.polyline[0].points)
         this.mapCtx = wx.createMapContext('map')
         this.mapCtx.includePoints({
-            padding: [100, 60, 60, 60],
+            padding: [200, 260, 260, 260],  //坐标点形成的矩形边缘到地图边缘的距离
             points: points,
         })
     },
@@ -615,15 +615,17 @@ Page({
                     success: function (res) {
                         // //console.log(res.result.routes[0]);
                         var ret = res;
-                        var duration = ret.result.routes[0].duration;
-                        var distance = ret.result.routes[0].distance;
+                        var duration = ret.result.routes[0].duration; //方案估算时间（分钟）
+                        var distance = ret.result.routes[0].distance; //方案整体距离（米）
                         //console.log("时间", duration, "距离", distance)
-                        var coors = ret.result.routes[0].polyline,
-                            pl = [{
-                                latitude: start.latitude,
-                                longitude: start.longitude
-                            }];
-                        //坐标解压（返回的点串坐标，通过前向差分进行压缩）
+                        var coors = ret.result.routes[0].polyline, //方案路线坐标点串
+
+                        //坐标点串数组（初始化加入起点）
+                        pl = [{
+                            latitude: start.latitude,
+                            longitude: start.longitude
+                        }];
+                        //坐标点串解压（返回的点串坐标，通过前向差分进行压缩）
                         var kr = 1000000;
                         for (var i = 2; i < coors.length; i++) {
                             coors[i] = Number(coors[i - 2]) + Number(coors[i]) / kr;
@@ -635,10 +637,13 @@ Page({
                                 longitude: coors[i + 1]
                             })
                         }
+
+                        //坐标点串数组（加入终点）
                         pl.push({
                             latitude: end.latitude,
                             longitude: end.longitude
                         })
+
                         //console.log("路线", pl)
                         //设置polyline属性，将路线显示出来,将解压坐标第一个数据作为起点
                         _this.setData({
@@ -650,12 +655,12 @@ Page({
                                 borderWidth: 2,
                                 arrowLine: true
                             }],
-                            steps: ret.result.routes[0].steps,
+                            steps: ret.result.routes[0].steps, //路线步骤
                             distance: distance,
                             duration: duration
                         })
-                        _this.includePoints()
-                        _this.moveAlong()
+                        _this.includePoints()    //缩放视野展示所有点
+                        _this.moveAlong()     //沿指定路径移动 marker
 
                     },
                     fail: function (error) {
@@ -666,6 +671,7 @@ Page({
                     }
                 });
 
+                //设置路线规划中marker的样式
                 this.setData({
                     markers: [{
                             id: 0,
@@ -674,9 +680,10 @@ Page({
                             iconPath: "https://mapapi.qq.com/web/lbs/javascriptGL/demo/img/start.png",
                             width: 25,
                             height: 37,
+                            //标记点上方的气泡窗口
                             callout: {
                                 content: " " + start.name + " ",
-                                display: 'ALWAYS',
+                                display: 'ALWAYS', //常显
                                 padding: 5,
                                 borderRadius: 10
                             },
@@ -730,7 +737,7 @@ Page({
         this.mapCtx.moveAlong({
             markerId: 2,
             path: points,
-            duration: 4000,
+            duration: 5000,  //平滑移动的时间
             autoRotate: true,
             success: function (res) {
                 markers.pop()

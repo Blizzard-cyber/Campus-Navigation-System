@@ -44,15 +44,14 @@ Page({
 
     },
 
-    click1: function (e) {
-        this.setData({
-            sid: 1,
-        })
+    tosite(){
+     wx.switchTab({
+       url: '/pages/site/site',
+     })
     },
-
-    click2: function (e) {
-        this.setData({
-            sid: 2,
-        })
-    },
+    tomap(){
+      wx.switchTab({
+        url: '/pages/map/map',
+      })
+    }
 })
