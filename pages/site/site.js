@@ -89,16 +89,32 @@ Page({
                 this.setData({
                     site_data: res.result.list
                 })
+                wx.showLoading({
+                  title: '加载中',
+                  mask:true   //显示透明蒙层，防止触摸穿透
+                })
+                // setTimeout(function () {
+                //   wx.hideLoading()
+                // }, 1000)
             })
             .catch(err => {
                 //console.log('fail', err)
             })
+    },
+ 
+    //图片加载触发
+    handload:function(e){
+      wx.hideLoading()
     },
 
     changeCategory: function (e) {
         //console.log("类别", e.currentTarget.id)
         this.setData({
             category: e.currentTarget.id,
+        })
+        wx.showLoading({
+          title: '加载中',
+          mask:true   //显示透明蒙层，防止触摸穿透
         })
     },
 

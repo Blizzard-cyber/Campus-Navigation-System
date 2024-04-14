@@ -65,6 +65,9 @@ Page({
 
     getList() {
         var that = this
+        wx.showLoading({
+          title: '加载中',
+        })
         wx.cloud.callFunction({
                 name: 'rank',
                 data: {
@@ -80,7 +83,7 @@ Page({
                     list: res.result.data.data,
                     pagination: res.result.pagination
                 })
-                //console.log(that.data.list)
+              wx.hideLoading()
             })
             .catch(err => {
                 //console.log('fail', err)

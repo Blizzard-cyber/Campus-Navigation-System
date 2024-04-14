@@ -12,6 +12,9 @@ Page({
   onLoad(options) {
     //console.log(options.id);
     // this.getRect()
+    wx.showLoading({
+      title: '加载中',
+    })
     this.setData({
       height: wx.getSystemInfoSync().windowHeight - 50, // 获取屏幕高度
       detail: 'id' + options.id // 获取跳转过来的锚点id
@@ -53,6 +56,11 @@ Page({
     this.setData({
       inputValue: e.detail.value
     })
+  },
+
+  //图片加载完成
+  handload:function(e){
+    wx.hideLoading()
   },
 
   search() {

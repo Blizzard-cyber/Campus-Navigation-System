@@ -47,8 +47,6 @@
 
 请 **认真阅读并遵守** 开源协议 [Apache-2.0 license](https://github.com/Blizzard-cyber/Campus-Navigation-System?tab=Apache-2.0-1-ov-file#Apache-2.0-1-ov-file)
 
-项目开源，持续维护，欢迎 [反馈](https://gitee.com/talmudmaster/GLU-Campus-Guide/issues) 、[拉取](https://gitee.com/talmudmaster/GLU-Campus-Guide/pulls) 和 STAR⭐️！
-
 **禁止用于商业和非法目的**，使用代码 **请标明出处或有所声明**  
 
 ---

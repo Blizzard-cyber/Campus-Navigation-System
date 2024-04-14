@@ -44,12 +44,11 @@ Page({
             url: '../../pages/more/statement/statement',
         })
     },
-    // 特别说明
-    aboutus() {
-        wx.showModal({
-            title: '特别说明',
-            content: '本项目应用于2024届计算机学院毕业毕业，未经允许，不得随意用于各类比赛项目',
-        })
+    // 页面测试
+    test() {
+      wx.navigateTo({
+        url: '../../pages/more/test/test',
+    })
     },
     // 联系作者
     contact() {
@@ -112,6 +111,9 @@ Page({
     toadmin() {
       //第一次点击
       if(this.data.toadminchecked){
+        wx.showLoading({
+          title: '加载中',
+        })
         //对云函数操作加锁
         this.setData({
           toadminchecked:false
@@ -121,6 +123,7 @@ Page({
             complete: res => {
                 // //console.log(res.result.data[0].name)
                 // //console.log(res.result.data.length)
+                wx.hideLoading()
                 var name = res.result.data[0].name
                 if (res.result.data.length != 0) {
                     wx.showToast({

@@ -16,7 +16,8 @@
         "pages/admin/media/media",
         "pages/admin/manage-category/manage-category",
         "pages/admin/manage-site/manage-site",
-        "pages/admin/manage-site/getpoint/getpoint"
+        "pages/admin/manage-site/getpoint/getpoint",
+        "pages/more/test/test"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -25,7 +26,8 @@
         "navigationBarTextStyle": "black"
     },
     "tabBar": {
-        "list": [{
+        "list": [
+            {
                 "selectedIconPath": "/images/tabbar/icon_map_HL.png",
                 "iconPath": "/images/tabbar/icon_map.png",
                 "pagePath": "pages/map/map",

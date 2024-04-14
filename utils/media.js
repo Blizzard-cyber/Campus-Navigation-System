@@ -57,7 +57,7 @@ module.exports = {
 
   // 地点排名
 
-  arrow_first: "../../../../images/arrow/arrow_first.png",
+  arrow_first: "../../../images/arrow/arrow_first.png",
   arrow_first_no: "../../../images/arrow/arrow_first_no.png",
   arrow_last: "../../../images/arrow/arrow_last.png",
   arrow_last_no: "../../../images/arrow/arrow_last_no.png",

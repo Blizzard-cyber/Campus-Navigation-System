@@ -17,8 +17,12 @@
         <text decode="true" user-select>{{item.content}}</text>
       </view>
       <view class="img" wx:for="{{item.imageList}}" wx:for-item="items" wx:key="index" wx:for-index="id" bindtap='clickImg' data-url="{{items}}" data-id="{{index}}">
-        <image src="{{items}}" mode="widthFix" 
-        show-menu-by-longpress></image>
+        <image src="{{items}}" 
+        mode="widthFix" 
+        show-menu-by-longpress
+        lazy-load
+        bindload="handload"
+        ></image>
       </view>
     </view>
   </view>

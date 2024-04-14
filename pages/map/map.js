@@ -201,22 +201,12 @@ Page({
 
     // 获取地图的图片链接 和 默认地点
     get() {
-        db.collection('media')
-            .where({
-                name: "地图"
-            })
-            .get()
-            .then(res => {
-                //console.log('success', res.data[0].img)
-                this.setData({
-                    //map_bottom: res.data[0].img,
-                })
-                this.map()
-            })
-            .catch(err => {
-                //console.log('fail', err)
-            })
 
+      wx.showLoading({
+        title: '加载中',
+        mask:true   //显示透明蒙层，防止触摸穿透
+      })
+        //this.map()
         db.collection('media')
             .where({
                 name: "默认地点"
@@ -262,56 +252,13 @@ Page({
                     site_data: res.result.list
                 })
                 this.location()
+                wx.hideLoading()
             })
             .catch(err => {
                 //console.log('fail', err)
             })
     },
-
-    // 初始化地图
-    map() {
-        var that = this
-        this.mapCtx = wx.createMapContext('map')
-        // this.mapCtx.addGroundOverlay({
-        //     id: 0,
-        //     src: that.data.map_bottom,
-        //     bounds: {
-        //         southwest: { //西南角
-        //             latitude: that.data.groundoverlay.southwest_latitude,
-        //             longitude: that.data.groundoverlay.southwest_longitude,
-        //         },
-        //         northeast: { //东北角
-        //             latitude: that.data.groundoverlay.northeast_latitude,
-        //             longitude: that.data.groundoverlay.northeast_longitude,
-        //         }
-        //     },
-        //     opacity: that.data.groundoverlay.opacity, //图层透明度
-        //     success(res) {
-        //         // //console.log('wp', res)
-        //     },
-        //     fail(err) {
-        //         // //console.log('err', err)
-        //     }
-        // })
-        // this.mapCtx.setBoundary({
-        //     southwest: { //西南角
-        //         latitude: that.data.boundary.southwest_latitude,
-        //         longitude: that.data.boundary.southwest_longitude,
-        //     },
-        //     northeast: { //东北角
-        //         latitude: that.data.boundary.northeast_latitude,
-        //         longitude: that.data.boundary.northeast_longitude,
-        //     }
-        // })
-        this.mapCtx.initMarkerCluster({
-            enableDefaultStyle: true, //启用默认的聚合样式
-            zoomOnClick: false, //点击已经聚合的标记点时是否实现聚合分离，点击后，标记点出现在屏幕边缘
-            gridSize: 30, //聚合算法的可聚合距离
-            complete(res) {
-                // //console.log('initMarkerCluster', res)
-            }
-        })
-    },
+    
 
     // 定位
     location() {
@@ -614,6 +561,7 @@ Page({
                     to: end.latitude + "," + end.longitude,
                     success: function (res) {
                         // //console.log(res.result.routes[0]);
+                        console.log(res)
                         var ret = res;
                         var duration = ret.result.routes[0].duration; //方案估算时间（分钟）
                         var distance = ret.result.routes[0].distance; //方案整体距离（米）
@@ -664,10 +612,10 @@ Page({
 
                     },
                     fail: function (error) {
-                        // console.error(error);
+                        console.error(error);
                     },
                     complete: function (res) {
-                        // //console.log(res);
+                      //console.log(res);
                     }
                 });
 
@@ -748,3 +696,47 @@ Page({
         })
     }
 })
+
+// 初始化地图
+    // map() {
+    //     this.mapCtx = wx.createMapContext('map')
+        // this.mapCtx.addGroundOverlay({
+        //     id: 0,
+        //     src: that.data.map_bottom,
+        //     bounds: {
+        //         southwest: { //西南角
+        //             latitude: that.data.groundoverlay.southwest_latitude,
+        //             longitude: that.data.groundoverlay.southwest_longitude,
+        //         },
+        //         northeast: { //东北角
+        //             latitude: that.data.groundoverlay.northeast_latitude,
+        //             longitude: that.data.groundoverlay.northeast_longitude,
+        //         }
+        //     },
+        //     opacity: that.data.groundoverlay.opacity, //图层透明度
+        //     success(res) {
+        //         // //console.log('wp', res)
+        //     },
+        //     fail(err) {
+        //         // //console.log('err', err)
+        //     }
+        // })
+        // this.mapCtx.setBoundary({
+        //     southwest: { //西南角
+        //         latitude: that.data.boundary.southwest_latitude,
+        //         longitude: that.data.boundary.southwest_longitude,
+        //     },
+        //     northeast: { //东北角
+        //         latitude: that.data.boundary.northeast_latitude,
+        //         longitude: that.data.boundary.northeast_longitude,
+        //     }
+        // })
+    //     this.mapCtx.initMarkerCluster({
+    //         enableDefaultStyle: true, //启用默认的聚合样式
+    //         zoomOnClick: false, //点击已经聚合的标记点时是否实现聚合分离，点击后，标记点出现在屏幕边缘
+    //         gridSize: 30, //聚合算法的可聚合距离
+    //         complete(res) {
+    //             // //console.log('initMarkerCluster', res)
+    //         }
+    //     })
+    // },

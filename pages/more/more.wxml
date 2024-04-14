@@ -28,10 +28,10 @@
         </image>
       </view>
 
-      <view bindtap="aboutus" class="menu_row">
+      <view bindtap="test" class="menu_row">
         <image style="height:60rpx;width:60rpx;margin-left:30rpx;" src="{{note}}">
         </image>
-        <view style="margin-left:10rpx;">特别说明</view>
+        <view style="margin-left:10rpx;">测试页面</view>
         <image style="height:40rpx;width:40rpx;margin-left:auto;margin-right:10px" src="{{green_arrow}}">
         </image>
       </view>
@@ -44,13 +44,14 @@
         </image>
       </view>
 
-      <view bindtap="sponsor" class="menu_row">
-        <image style="height:60rpx;width:60rpx;margin-left:30rpx;" src="{{support}}">
+      
+      <button class="menu_row open_type" style="width: 95%;" open-type="openSetting" >
+        <image style="height:60rpx;width:60rpx;margin-left:30rpx;" src="{{note}}">
         </image>
-        <view style="margin-left:10rpx;">支持一下</view>
+        <view style="margin-left:10rpx;">授权管理</view>
         <image style="height:40rpx;width:40rpx;margin-left:auto;margin-right:10px" src="{{green_arrow}}">
         </image>
-      </view>
+      </button>
 
       <button class="menu_row open_type" style="width: 95%;" open-type="contact">
         <image style="height:60rpx;width:60rpx;margin-left:30rpx;" src="{{chat}}">

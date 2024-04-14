@@ -21,7 +21,7 @@
                 <view class="card-right-content">
                     <view class="card-right-content-card" wx:for="{{site_data[category].list}}" wx:key="id" bindtap="click" data-name="{{item.name}}" data-desc="{{item.desc}}" data-aliases="{{item.aliases}}" data-img="{{item.img}}" id="{{index}}">
                         <view>
-                            <image class="card-right-content-card-img" src="{{item.img}}" mode="aspectFill" />
+                            <image class="card-right-content-card-img" src="{{item.img}}" mode="aspectFill"  bindload="handload" />
                         </view>
 
                         <view class="card-right-content-card-context">
