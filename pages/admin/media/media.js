@@ -192,8 +192,10 @@ Page({
             success(res) {
                 //console.log(res.tempFiles)
                 for (var i = 0; i < res.tempFiles.length; i++) {
+                  //获取文件后缀
                     var po = res.tempFiles[i].tempFilePath.lastIndexOf(".")
                     var ext = res.tempFiles[i].tempFilePath.slice(po)
+                    //console.log(ext)
                     wx.cloud.uploadFile({
                         cloudPath: new Date().getTime() + ext,
                         filePath: res.tempFiles[i].tempFilePath,
@@ -234,7 +236,7 @@ Page({
     },
 
     updateImg() {
-        if (this.data.backgroundurl.length > 2) {
+        if ( this.data.backgroundurl.length > 2 ) {
             wx.cloud.callFunction({
                     name: 'update_media',
                     data: {

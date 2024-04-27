@@ -367,7 +367,7 @@ Page({
 
     // 点击地图标记点时触发事件
     markertap(e) {
-      
+      if(this.data.polyline.length == 0){
         if (e.markerId == 0) {
             var site = this.data.default_point
         } else {
@@ -397,6 +397,7 @@ Page({
             //     console.log(res)
             // }
         })
+      }
     },
 
     // 底部按钮（路线详情和类别地点）

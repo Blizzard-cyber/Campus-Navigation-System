@@ -80,10 +80,10 @@ module.exports = {
   admin: "../../images/admin.png",
   // 联系作者
   contact: "https://636c-cloud1-2gezxl8218856e05-1323401285.tcb.qcloud.la/Campus/author.jpg",
-  // 支持一下
-  sponsor: "https://636c-cloud1-2gezxl8218856e05-1323401285.tcb.qcloud.la/Campus/author.jpg",
-  // 小程序码
-  miniprogramming_ma: "https://636c-cloud1-2gezxl8218856e05-1323401285.tcb.qcloud.la/Campus/miniprogram.jpg",
+
+  //小程序码
+  miniprogramming_ma:"https://636c-cloud1-2gezxl8218856e05-1323401285.tcb.qcloud.la/Campus/miniprogram.jpg",
+
 
 
   // 软件声明页

@@ -16,13 +16,12 @@ Page({
         contact: media.contact,
 
         support: media.support,
-        sponsor: media.sponsor,
 
         chat: media.chat,
         feedback: media.feedback,
+        miniprogramming_ma:media.miniprogramming_ma,
 
         share: media.share,
-        miniprogramming_ma: media.miniprogramming_ma,
 
         admin: media.admin,
 
@@ -46,38 +45,20 @@ Page({
     },
     // 页面测试
     test() {
-      wx.navigateTo({
-        url: '../../pages/more/test/test',
-    })
+    //   wx.navigateTo({
+    //     url: '../../pages/more/test/test',
+    // })
     },
     // 联系作者
     contact() {
         wx.showModal({
             title: '联系作者',
-            content: '如果遇到什么问题\n请点击确认与我联系',
+            content: '如果遇到问题\n请点击确认添加微信与我联系',
             success: (res => {
                 if (res.confirm == true) {
                     wx.previewImage({
                         current: this.data.contact, // 当前显示图片的http链接
                         urls: [this.data.contact] // 需要预览的图片http链接列表
-                    })
-                }
-            }),
-            fail(res) {
-                //console.log('fail')
-            }
-        })
-    },
-    // 给点赞助
-    sponsor() {
-        wx.showModal({
-            title: '给点赞助',
-            content: '如果你觉得小程序不错\n可以支持一下开发者',
-            success: (res => {
-                if (res.confirm == true) {
-                    wx.previewImage({
-                        current: this.data.sponsor,
-                        urls: [this.data.sponsor]
                     })
                 }
             }),

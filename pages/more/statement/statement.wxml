@@ -19,12 +19,13 @@
         </view>
 
         <view class="card-container-text">
-            {{information.author}} | 指导老师:{{information.teacher}}
+            {{information.author}} 
         </view>
 
         <view class="card-container-text">
-            版权归开发者所有!
+            指导老师：{{information.teacher}}
         </view>
+
 
     </view>
 
@@ -36,11 +37,11 @@
             </view>
         </view>
         <view class="card-container-all">
-            <text class="card-container-text" decode="true">&emsp;&emsp;首先感谢各位小程序开发者，你们的小程序界面布局、开源代码、提供的思路给我提供了很大的帮助，没有你们的帮助，小程序不能顺利完成。</text>
+            <text class="card-container-text" decode="true">&emsp;&emsp;感谢各位小程序开发者，小程序界面布局、开源代码、提供的思路给我提供了很大的帮助。</text>
 
             <image class="card-container-img" src="{{zhixie_kaifazhe}}" mode="widthFix" />
 
-            <text class="card-container-text" decode="true">&emsp;&emsp;其次感谢B站分享技术视频的up主们，没有你们的教学，我可能还在踌躇不前，望而却步。</text>
+            <text class="card-container-text" decode="true">&emsp;&emsp;感谢B站分享技术视频的up主们，根据你们的教程使得能够快速上手小程序开发，能在较短的时间内产出小程序的原型，极大的降低了学习的时间成本。</text>
 
             <image class="card-container-img" src="{{zhixie_up}}" mode="widthFix" />
         </view>
@@ -54,21 +55,23 @@
             </view>
         </view>
 
-        <view class="card-container-text">
-            Gitee : Campus-Navigation-System
+        <view class="card-container-text" >
+          作者首页 : https://github.com/Blizzard-cyber
         </view>
 
-        <view class="card-container-text">
-            GitHub : Campus-Navigation-System
+        <view class="card-container-text" >
+          作者邮箱 : 369476975@qq.com
+        </view>
+        <view class="card-container-text" >
+          GitHub : https://github.com/Blizzard-cyber/Campus-Navigation-System
+        </view>
+        <view class="card-container-text" >
+          使用代码请遵守相关开源协议!
         </view>
 
-
-        <view class="card-container-text">
-            使用代码请遵守相关开源协议!
-        </view>
     </view>
 
     <view class="bottom-font">
-        尊重劳动心血 | 感谢大佬付出
+        云游成电校园导航  |  版权归开发者所有
     </view>
 </view>

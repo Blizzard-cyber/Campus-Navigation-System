@@ -16,8 +16,8 @@
         "pages/admin/media/media",
         "pages/admin/manage-category/manage-category",
         "pages/admin/manage-site/manage-site",
-        "pages/admin/manage-site/getpoint/getpoint",
-        "pages/more/test/test"
+        "pages/admin/manage-site/getpoint/getpoint"
+       
     ],
     "window": {
         "backgroundTextStyle": "light",

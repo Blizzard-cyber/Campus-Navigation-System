@@ -28,13 +28,6 @@
         </image>
       </view>
 
-      <view bindtap="test" class="menu_row">
-        <image style="height:60rpx;width:60rpx;margin-left:30rpx;" src="{{note}}">
-        </image>
-        <view style="margin-left:10rpx;">测试页面</view>
-        <image style="height:40rpx;width:40rpx;margin-left:auto;margin-right:10px" src="{{green_arrow}}">
-        </image>
-      </view>
 
       <view bindtap="contact" class="menu_row">
         <image style="height:60rpx;width:60rpx;margin-left:30rpx;" src="{{users}}">

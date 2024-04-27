@@ -68,23 +68,22 @@ Page({
     wx.showLoading({
       title: '搜索中',
     })
-    var res = []
+    var searchRes = [];
     for (const i of this.data.allWords) {
       if (i.title.indexOf(this.data.inputValue) != -1 || i.content.indexOf(this.data.inputValue) != -1 || i.keywords.indexOf(this.data.inputValue) != -1) {
-        res.push(i)
+        searchRes.push(i);
       }
     }
-    //console.log(this.data.allWords)
-    //console.log(res)
+    
     wx.hideLoading()
-    if (res.length == 0) {
+    if (searchRes.length == 0) {
       wx.showToast({
         title: '无搜索结果',
         icon: 'none'
       })
     } else {
       this.setData({
-        curWords: res
+        curWords: searchRes
       })
     }
   },
