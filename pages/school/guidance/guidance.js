@@ -60,6 +60,7 @@ Page({
 
   //图片加载完成
   handload:function(e){
+    console.log(e)
     wx.hideLoading()
   },
 
@@ -68,7 +69,8 @@ Page({
     wx.showLoading({
       title: '搜索中',
     })
-    var searchRes = [];
+    let searchRes = [];
+    
     for (const i of this.data.allWords) {
       if (i.title.indexOf(this.data.inputValue) != -1 || i.content.indexOf(this.data.inputValue) != -1 || i.keywords.indexOf(this.data.inputValue) != -1) {
         searchRes.push(i);

@@ -7,7 +7,7 @@
   </view>
 </view>
 
-<scroll-view scroll-y="true" style="height: {{height+'px'}}; top: 50px;position: fixed;" scroll-into-view="{{ detail }}" scroll-with-animation="true">
+<scroll-view scroll-y="true" style="height: {{height+'px'}}; top: 50px;position: fixed;" scroll-into-view="{{ detail }}" scroll-with-animation="true"	enable-passive>
   <view class="cu-card dynamic" style="padding-bottom: 0;" wx:for="{{curWords}}" wx:for-item="item" wx:key="index" id="id{{index}}">
     <view class="cu-item shadow padding-sm">
       <view class="text-content">

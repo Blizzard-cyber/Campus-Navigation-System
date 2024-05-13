@@ -26,7 +26,8 @@ Page({
         admin: media.admin,
 
         //是否多次点击进入管理页面
-        toadminchecked:true
+        toadminchecked:true,
+        getIdchecked:true
     },
 
     onLoad: function () {},
@@ -102,33 +103,33 @@ Page({
         wx.cloud.callFunction({
             name: 'login',
             complete: res => {
-                // //console.log(res.result.data[0].name)
-                // //console.log(res.result.data.length)
                 wx.hideLoading()
-                var name = res.result.data[0].name
                 if (res.result.data.length != 0) {
+                  var adminName = res.result.data[0].name
                     wx.showToast({
-                        title: '欢迎回来\n管理员：' + name,
+                        title: '欢迎回来\n管理员：' + adminName,
                         icon: 'none',
                         duration: 1500
                     })
+                    setTimeout(() => {
+                        wx.navigateTo({
+                            url: '../../pages/admin/admin',
+                        })
+                    }, 1500)
                     setTimeout(() => {
                       //对云函数操作解锁
                       this.setData({
                         toadminchecked:true
                       })
-                        wx.navigateTo({
-                            url: '../../pages/admin/admin',
-                        })
-                    }, 1500)
+                    }, 2000)
                 } else {
-                  this.setData({
-                    toadminchecked:true
-                  })
                     wx.showToast({
                         title: '抱歉，同志\n您还不是管理员哦',
                         icon: 'none',
                         duration: 1500
+                    })
+                    this.setData({
+                      toadminchecked:true
                     })
                 }
                
@@ -142,16 +143,29 @@ Page({
 
     // 获取openid
     getopenid() {
+      if(this.data.getIdchecked){
+        wx.showLoading({
+          title: '加载中',
+        })
+        //对云函数操作加锁
+        this.setData({
+          getIdchecked:false
+        })
+
         wx.cloud.callFunction({
             name: 'get_openid',
             complete: res => {
                 //console.log("微信用户openid", res.result.openid)
+                wx.hideLoading()
                 let openid = res.result.openid
                 wx.showModal({
                     title: '您的openid',
                     content: openid,
                     confirmText: '点击复制',
                     complete: (res) => {
+                      this.setData({
+                        getIdchecked:true
+                      })
                         if (res.confirm) {
                             wx.setClipboardData({
                                 data: openid,
@@ -168,5 +182,9 @@ Page({
                 })
             }
         })
+      }
+      else{
+        console.log("重复点击！")
+      }
     }
 })
