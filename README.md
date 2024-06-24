@@ -135,13 +135,10 @@
 
 # 🤩 项目预览
 
-<center class="half">
-    <img src="./assets/home.png" width="200"/><img src="./assets/sitedisplay.png" width="200"/><img src="./assets/sites.png" width="200"/>
-</center>
+![主页](./assets/main.png)
 
-<center class="half">
-    <img src="./assets/polyline.png" width="200"/><img src="./assets/siteinfo.png" width="200"/><img src="./assets/guide.png" width="200"/>
-</center>
+![功能](./assets/info.png)
+
 
 ------
 
