@@ -5,7 +5,7 @@ App({
      */
     onLaunch() {
         wx.cloud.init({
-            env: 'cloud1-2gezxl8218856e05' // 云开发id
+            env: '' // 云开发id
         })
     },
 

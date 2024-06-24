@@ -1,0 +1,707 @@
+{
+    "_id": "1",
+    "name": "品学楼",
+    "aliases": "A、B、C区 | 公共教学楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/1Teaching/PinXue1.jpg",
+    "desc": "穿过盖笼人烟，姿舞云霄的银杏大道，过了桥就看到品学楼。A、B、C三栋呈“品”字形分布，故得名“品学楼”，三区互相连接，A区与B区的通道外侧是成电校训——求实求真，大气大为。",
+    "latitude": "30.751028",
+    "longitude": "103.932175",
+    "c_id": "1",
+    "browse": 0
+}
+{
+    "_id": "2",
+    "name": "立人楼",
+    "aliases": "A、B区 | 公共教学楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/1Teaching/LiRen1.png",
+    "desc": "晴空下的立人楼，倒映在东湖中，画面美不胜收。“立人楼”名字的由来是为了纪念电子科技大学第一任校长——吴立人先生。1955年吴立人临危受命筹建大学，奔走筹划，搜寻人才，并动员三校教师共建新校，最终建成新中国第一所无线电大学，“成电”此后也被誉为“民族电子工业摇篮”。",
+    "latitude": "30.749001",
+    "longitude": "103.931517",
+    "c_id": "1",
+    "browse": 0
+}
+
+{
+    "_id": "3",
+    "name": "经管楼",
+    "aliases": "A、B、C区 | 学院楼、教学楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/1Teaching/JinGuan.jpg",
+    "desc": "经管楼是经济与管理学院集教学、科研、办公于一体的大楼，分为A、B、C三个区域，在经管楼智慧化改造完工后，现在的经管楼可谓是高大上、人性化、设施齐全，很好满足了同学们学习科研的需要",
+    "latitude": "30.750708",
+    "longitude": "103.924547",
+    "c_id": "1",
+    "browse": 0
+}
+{
+    "_id": "4",
+    "name": "基础实验大楼",
+    "aliases": "科研楼A区 | 实验楼、科研楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/2Lab/Base_Lib.jpg",
+    "desc": "基础实验大楼是位于四川成都的一座教学科研楼，主要用于进行基础实验和研究工作。该实验大楼配备了先进的实验设备和实验室，为学生和教师提供了良好的实验条件",
+    "latitude": "30.750848",
+    "longitude": "103.930756",
+    "c_id": "2",
+    "browse": 0
+}
+{
+    "_id": "5",
+    "name": "工程训练中心",
+    "aliases": "金工/电工实训基地",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/2Lab/Engineer Center.jpg",
+    "desc": "工程训练中心既秉承了校办实习工厂伴随成电成长50余载的艰苦奋斗、求真务实精神，又熔入了最新的技术发展成就和管理体制及改革成果，焕发出勃勃生机，在教学及工作中实践着学校“求实求真、大气大为”的校训精神。目前中心人员由具有丰富教学科研实践经验的教授、副教授及原金工教研室和实习工厂人员组成，负责“制造工程训练”和“电工电气技术实训”等课程的改革、建设、教学和实践实训等工作。",
+    "latitude": "30.75202",
+    "longitude": "103.926105",
+    "c_id": "2",
+    "browse": 0
+}
+
+{
+    "_id": "6",
+    "name": "综合楼",
+    "aliases": "荟文楼 | 学院楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/3Colleage/General.png",
+    "desc": "生命科学与技术学院 | 公共管理学院 | 外国语学院",
+    "latitude": "30.756095",
+    "longitude": "103.927834",
+    "c_id": "3",
+    "browse": 0
+}
+{
+    "_id": "7",
+    "name": "文科楼（在建）",
+    "aliases": "文科学院楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/3Colleage/Wen Ke.jpg",
+    "desc": "主要用于马克思主义学院、公共管理学院、外国语学院等文科学院教学科研。",
+    "latitude": "30.749999",
+    "longitude": "103.934353",
+    "c_id": "3",
+    "browse": 0
+}
+{
+    "_id": "8",
+    "name": "宣邦楼（在建）",
+    "aliases": "计算机学院楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/3Colleage/Xuan Bang.png",
+    "desc": "宣邦楼的设计融合计算机语言：“0”与“1”的组合，在匹配学校专业特质的基础上，将东方的地域文脉和西方的新古典风格相结合，追求“和而不同”的建筑风格共生共存，赋予建筑浓郁的文化特性。宣邦楼的在规划设计上遵循与校园整体规划协调统一，与周边环境、建筑保持和谐共融和体现电子科技大学的特色校园文化的原则。该楼规划总建筑面积6.3万余平方米，分为正楼、钟楼和塔楼三部分；钟楼设立校友之家，其顶端有一电子管造型，具有浓厚的“成电味道”；塔楼由计算机学院管理使用。",
+    "latitude": "30.745975",
+    "longitude": "103.932991",
+    "c_id": "3",
+    "browse": 0
+}
+{
+    "_id": "9",
+    "name": "创新中心",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/3Colleage/Innovation Center.png",
+    "desc": "创新中心是学校大力实施的“一校一带”行动计划的零公里起步点，是学校科技创新集聚区，将对学校的“一校一带”计划起到重要支撑作用",
+    "latitude": "30.749167",
+    "longitude": "103.924589",
+    "c_id": "3",
+    "browse": 0
+}
+{
+    "_id": "10",
+    "name": "成电国际创新中心",
+    "aliases": "集电/自动化/智能计算研究院学院楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/3Colleage/Internation Innovation Center.jpg",
+    "desc": "紧邻六号科研实验楼，由成都市高新区投资建设。是我校“一校一带”行动计划重要建设项目。含创新中心、接待中心、会议中心等。6个国际合作重大项目，20个跨学科特色研究中心，这里是学校坚持“四个面向”的重要窗口。",
+    "latitude": "30.745972",
+    "longitude": "103.923786",
+    "c_id": "3",
+    "browse": 0
+}
+{
+    "_id": "11",
+    "name": "四号科研楼",
+    "aliases": "电子/光电/物理学院楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/3Colleage/Ke Yan4.png",
+    "desc": "“十三五”时期清水河新建的第一座大型建筑。占地面积4万6千平方米，建筑面积8万5千平方米，已投入使用的四号科研楼呈三个“回”字与品学楼遥相呼应。",
+    "latitude": "30.753241",
+    "longitude": "103.926677",
+    "c_id": "3",
+    "browse": 0
+}
+{
+    "_id": "12",
+    "name": "五号科研楼",
+    "aliases": "电子薄膜实验室",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/3Colleage/Ke Yan5.png",
+    "desc": "位于西门东北侧，2016年建成投入使用。国家重点实验室、国家工程技术研究中心，这里汇聚了推动科技创新发展的强大力量",
+    "latitude": "30.75475",
+    "longitude": "103.927696",
+    "c_id": "3",
+    "browse": 0
+}
+{
+    "_id": "13",
+    "name": "六号科研楼",
+    "aliases": "数学/格拉斯哥/基础前沿研究院学院楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/3Colleage/Ke Yan6.png",
+    "desc": "电子科技大学六号科研实验楼位于清水河校区西南侧，总建筑面积约9.1万㎡。建筑布局顺应校园总体规划，临主楼侧退让用地红线形成入口广场，与东北侧湿地公园遥相呼应，建筑形象完整大气。",
+    "latitude": "30.748179",
+    "longitude": "103.92333",
+    "c_id": "3",
+    "browse": 0 
+}
+{
+    "_id": "14",
+    "name": "一号科研楼",
+    "aliases": "科B、科C | 信通学院楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/3Colleage/Ke Yan1.jpg",
+    "desc": "包括A区、B区、C区，包含基础实验大楼，信息与通信工程学院楼",
+    "latitude": "30.751975",
+    "longitude": "103.931022",
+    "c_id": "3",
+    "browse": 0
+}
+{
+    "_id": "15",
+    "name": "众创空间",
+    "aliases": "创新创业学院楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/3Colleage/Zhong Chuang.png",
+    "desc": "众创空间由电子科技大学、上海荷福集团、上海临港集团三方强强联手、合作共建，是中国高校首个综合性众创空间。目前，按照建设规划，众创空间的8栋楼已经科学布局，建成了包含创客空间、联合办公、创业咖啡、新型孵化器和创业社区等五种空间形态的综合性众创平台。",
+    "latitude": "30.744061",
+    "longitude": "103.932453",
+    "c_id": "3",
+    "browse": 0
+}
+{
+    "_id": "16",
+    "name": "研究院大楼",
+    "aliases": "航空航天学院楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/3Colleage/Research.jpg",
+    "desc": "这里包括电子科学技术研究院、微波暗室，也有国家级实验教学示范中心和工程训练中心。",
+    "latitude": "30.751959",
+    "longitude": "103.925615",
+    "c_id": "3",
+    "browse": 0
+}
+{
+    "_id": "17",
+    "name": "南门",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/4Gate/South.jpg",
+    "desc": "可乘坐716路，725路，708路，205路，202路，96路，736路，301路，出校可前往顺江小区，进校可前往主楼",
+    "latitude": "30.743876",
+    "longitude": "103.925093",
+    "c_id": "4",
+    "browse": 0
+}
+{
+    "_id": "18",
+    "name": "南二门",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/4Gate/South2.png",
+    "desc": "可乘坐716路，725路，708路，205路，202路，96路，736路，301路，有轨电车蓉2号线电子科大站，出校可前往顺江小区，进校可前往体育馆",
+    "latitude": "30.742141",
+    "longitude": "103.928933",
+    "c_id": "4",
+    "browse": 0
+}
+{
+    "_id": "19",
+    "name": "西门",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/4Gate/West.jpg",
+    "desc": "可乘坐771路，301路，P18路，116路，205路，有轨电车蓉2号线合作路站",
+    "latitude": "30.755088",
+    "longitude": "103.92637",
+    "c_id": "4",
+    "browse": 0
+}
+{
+    "_id": "20",
+    "name": "西二门",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/4Gate/West2.jpg",
+    "desc": "可乘坐771路，301路，116路，有轨电车蓉2号线合信路站，出校可前往龙湖时代天街，进校可前往水杉路",
+    "latitude": "30.752162",
+    "longitude": "103.923888",
+    "c_id": "4",
+    "browse": 0
+}
+{
+    "_id": "21",
+    "name": "主楼",
+    "aliases": "行政楼 | 学院楼 | 实验楼",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/5Admin/Main.jpg",
+    "desc": "它融合了现代特色并进行了创新，但其文化内涵和体貌风格却传承自原主楼。厚重、大气、典雅的新主楼代表的是成电人对原主楼的回忆，以及对老成电精神的发扬光大。新主楼作为后起之秀，2010年11月获得中国建设工程最高奖——“鲁班奖”，之后又入选我国“改革开放35年百项经典暨精品工程”，成为全国32项“精品工程”之一。",
+    "latitude": "30.74608",
+    "longitude": "103.92697",
+    "c_id": "5",
+    "browse": 0
+}
+{
+    "_id": "22",
+    "name": "图书馆",
+    "aliases": "八角书斋",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/6Libary/Libary1.jpg",
+    "desc": "因其八角形的建筑结构而又名“八角书斋”。馆内除去必备的研修空间外，还有着完备的活动配置，包括电脑室，电影空间，VR体验区，团队讨论室等供在校学生免费使用",
+    "latitude": "30.750089",
+    "longitude": "103.928505",
+    "c_id": "6",
+    "browse": 0
+}
+{
+    "_id": "23",
+    "name": "时间广场",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/7Square/Time.png",
+    "desc": "时间广场因南侧的日晷雕塑而得名。劝君莫惜金缕衣，劝君惜取少年时。时间广场位于电子科技大学清水河校区图书馆前，广场按照时钟的样式设计，走入广场仿佛可以感受流动的时间。",
+    "latitude": "30.749211",
+    "longitude": "103.929517",
+    "c_id": "7",
+    "browse": 0
+}
+{
+    "_id": "24",
+    "name": "主楼广场",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/7Square/Main.jpg",
+    "desc": "位于主楼与南门之间",
+    "latitude": "30.745092",
+    "longitude": "103.926084",
+    "c_id": "7",
+    "browse": 0
+}
+{
+    "_id": "25",
+    "name": "体育场",
+    "aliases": "体育馆 | 游泳馆 | 体育场",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/8Gym/Gym.jpg",
+    "desc": "电子科技大学清水河体育场，涵盖有田径场，足球场，篮球场，羽毛球场，网球场、排球场等室外场地和乒乓球场、篮球场、羽毛球场、游泳馆等室内场地，为学生体育锻炼提供完备的设施。",
+    "latitude": "30.743713",
+    "longitude": "103.929688",
+    "c_id": "8",
+    "browse": 0
+}
+{
+    "_id": "26",
+    "name": "综合训练馆",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/8Gym/Train tube.jpg",
+    "desc": "综合训练馆简称综训馆，是大部分体育课进行的地方，位于品学楼C区附近，离宿舍区较近。综训馆内设有篮球场、足球场、羽毛球场等，也适合同学们日常进行锻炼。",
+    "latitude": "30.750347",
+    "longitude": "103.93633",
+    "c_id": "8",
+    "browse": 0
+}
+{   
+    "_id": "27",
+    "name": "银杏大道",
+    "aliases": "‘全国九大银杏观赏地’之一",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/9Spot/Gingko1.jpg",
+    "desc": "银杏大道作为我电地标性建筑，夏季夏蝉噪鸣，绿树如荫，宽阔笔直；秋日阳光满地，移步换景，醉美银杏。这里的银杏，连方文山和刘若英都点赞，是美丽成电的一张亮丽名片，我电也因为银杏被称为“中国最美银杏大学”，“清水河5A级景区”。",
+    "latitude": "30.747185",
+    "longitude": "103.929158",
+    "c_id": "9",
+    "browse": 0
+}
+{
+    "_id": "28",
+    "name": "西湖",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/9Spot/West Lake1.jpg",
+    "desc": "图书馆旁便是有黑天鹅出没的西湖，看朵朵涟漪，赏四季风景，观天鹅嬉戏，所有压力和焦虑，都能在这样美好的环境中释放",
+    "latitude": "30.750018",
+    "longitude": "103.926581",
+    "c_id": "9",
+    "browse": 0
+}
+{
+    "_id": "29",
+    "name": "东湖",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/9Spot/East Lake.png",
+    "desc": "湖水清澈，周围树木葱茏，野鸭、天鹅在湖中嬉戏。校长吴立人的雕像矗立在湖畔，吸引人们驻足。在阳光下，湖面波光粼粼，带来宁静和美好。太阳西斜时，灯光与倒影相映，营造出迷人的景色。",
+    "latitude": "30.74709",
+    "longitude": "103.931597",
+    "c_id": "9",
+    "browse": 0
+}
+{
+    "_id": "30",
+    "name": "电子科技博物馆",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/9Spot/Museum.jpg",
+    "desc": "博物馆现有藏品近1.4万件，包括通信、雷达、广播电视、电子测量仪器、电子元器件、计算机六个电子工业领域。现有基本陈列展厅面积1800平方米，展陈了较为完整的电子工业体系。另有专题展厅300平方米，已举办钱学森事迹展、计算机历史展和中国百年股票展等专题展览，产生了广泛社会影响。",
+    "latitude": "30.74979",
+    "longitude": "103.927454",
+    "c_id": "9",
+    "browse": 0
+}
+{
+    "_id": "31",
+    "name": "日晷",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/9Spot/Sundial.jpg",
+    "desc": "日晷矗立在时间广场旁边，是电子科技大学的标志性建筑，劝勉学子们珍惜大学时光",
+    "latitude": "30.748569",
+    "longitude": "103.929016",
+    "c_id": "9",
+    "browse": 0
+}
+{
+    "_id": "32",
+    "name": "钢琴小屋",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/9Spot/Piano House.png",
+    "desc": "为满足师生们对美的追求，提升美学素养，大学生文化素质教育中心于2021年启动钢琴校园建设计划，推动美育浸润行动，倾情打造的美育氛围。钢琴校园建设计划首期，由校友曲建明先生捐赠的12台钢琴，就静候在校园的每一处，期待与爱音乐的你不期而遇，让指尖跃动，青春流转",
+    "latitude": "30.745237",
+    "longitude": "103.933466",
+    "c_id": "9",
+    "browse": 0
+}
+{
+    "_id": "33",
+    "name": "校友林",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/9Spot/Alumni Forest.png",
+    "desc": "学校在清水河校区体育场与主楼之间规划的一片土地，以便更多校友能够回到母校参与校友活动，让校友林成为校友文化氛围营造的重要平台",
+    "latitude": "30.744652",
+    "longitude": "103.930125",
+    "c_id": "9",
+    "browse": 0
+}
+{
+    "_id": "34",
+    "name": "森林公园",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/9Spot/Forest park.jpg",
+    "desc": "位于图书馆与主楼之间的一片树林，与西湖和银杏大道相邻，可以看到孔雀小屋以及西湖边的天鹅小屋",
+    "latitude": "30.748186",
+    "longitude": "103.928035",
+    "c_id": "9",
+    "browse": 0
+}
+{
+    "_id": "35",
+    "name": "学生活动中心",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/10Student/ActivityCenter.png",
+    "desc": "学生活动中心主要是各个学生组织的工作地点，比如：学生会、社团、蔚蓝网络文化工作室等，也是校团委、党委学生工作部以及大学生文化素质教育中心的办公地点",
+    "latitude": "30.7548",
+    "longitude": "103.928989",
+    "c_id": "10",
+    "browse": 0
+}
+{
+    "_id": "36",
+    "name": "成电会堂",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/10Student/Hall.png",
+    "desc": "成电会堂紧邻学生活动中心，各种大型演出将在成电会堂举办，同时它也是成电舞台的举办地点",
+    "latitude": "30.756008",
+    "longitude": "103.929382",
+    "c_id": "10",
+    "browse": 0
+}
+{
+    "_id": "37",
+    "name": "商业街",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/11Life/Business Street.jpg",
+    "desc": "学校商业街共分三层，集购物娱乐餐饮于一身面向全校师生。超市：红旗、易购、银杏。快递点：一楼菜鸟驿站、京东快递，三楼顺丰快递",
+    "latitude": "30.756843",
+    "longitude": "103.929898",
+    "c_id": "11",
+    "browse": 0
+}
+{
+    "_id": "38",
+    "name": "校医院",
+    "aliases": "二级甲等综合医院",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/11Life/Hospital.png",
+    "desc": "电子科技大学医院（清水河校区）作为学校直属单位，已经成为一所集医疗、预防、保健、康复为一体的二级甲等综合医院。系四川省高校保健医学研究会理事长单位，四川省教师资格证认证体检医院及成都市机动车驾驶员体检定点医院，同时也是四川省及成都市医保定点医院。医院建筑面积2.3万平米，由两个医院、两个医务室、一个社康中心构成。医院承担着校内6万师生、家属及校外周边社区居民的医疗保健工作。",
+    "latitude": "30.756917",
+    "longitude": "103.928598",
+    "c_id": "11",
+    "browse": 0
+}
+{
+    "_id": "39",
+    "name": "思学苑",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/11Life/Si Xue.jpg",
+    "desc": "学子苑食堂包括学子餐厅（一楼）、思源餐厅（二楼）、家园餐厅（三楼），位于宿舍四组团对面，离品学楼、综合训练馆很近。",
+    "latitude": "30.752787",
+    "longitude": "103.934112",
+    "c_id": "11",
+    "browse": 0
+}
+{
+    "_id": "40",
+    "name": "银杏苑",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/11Life/Gingko.png",
+    "desc": "银桦苑食堂包括银桦餐厅（一楼）、紫荆餐厅（二楼）、芙蓉餐厅（三楼），位于宿舍一组团对面，离图书馆、部分宿舍和学生活动中心很近。",
+    "latitude": "30.754511",
+    "longitude": "103.930255",
+    "c_id": "11",
+    "browse": 0
+}
+{
+    "_id": "41",
+    "name": "春晖苑",
+    "aliases": "朝阳餐厅",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/11Life/Chao Yang.png",
+    "desc": "朝阳餐厅处于众多宿舍楼的包围之中，是直接从宿舍去吃饭的不二之选。设有朝阳厨房、印象小卤、私房拌菜、川道冒菜、西北风味等多个特色窗口。",
+    "latitude": "30.755766",
+    "longitude": "103.933798",
+    "c_id": "11",
+    "browse": 0
+}
+{
+    "_id": "42",
+    "name": "科创餐厅",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/11Life/Ke Chuang.jpg",
+    "desc": "科创餐厅位于成电国际创新中心，共两层楼，建筑面积约5343㎡，规划座位800个，极大缓解了周围师生就餐困难的问题。其清爽时尚的装修风格，简约而不失大气的设计，明亮整洁舒适的环境，在便利之外，也为师生带来了上佳的用餐体验。",
+    "latitude": "30.747254",
+    "longitude": "103.92272",
+    "c_id": "11",
+    "browse": 0
+}
+{
+    "_id": "43",
+    "name": "桃园餐厅",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/11Life/Tao Yuan.jpg",
+    "desc": "采取教职员工自选和小炒模式。提供炒菜、面食、小吃、蒸菜、炖菜等。",
+    "latitude": "30.743012",
+    "longitude": "103.928645",
+    "c_id": "11",
+    "browse": 0
+}
+{
+    "_id": "44",
+    "name": "学知苑一组团",
+    "aliases": "本科一组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "学知苑1,2,3栋",
+    "latitude": "30.754684",
+    "longitude": "103.932043",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "45",
+    "name": "学知苑二组团",
+    "aliases": "本科二组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "学知苑4,5,6,7栋",
+    "latitude": "30.753789",
+    "longitude": "103.932228",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "46",
+    "name": "学知苑三组团",
+    "aliases": "本科三组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "学知苑8,9,10,11栋",
+    "latitude": "30.754898",
+    "longitude": "103.933846",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "47",
+    "name": "学知苑四组团",
+    "aliases": "本科四组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "学知苑12,13,14,15栋",
+    "latitude": "30.753739",
+    "longitude": "103.934338",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "48",
+    "name": "学知苑五组团",
+    "aliases": "本科五组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "学知苑16,17,18,19栋",
+    "latitude": "30.753745",
+    "longitude": "103.935372",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "49",
+    "name": "学知苑六组团",
+    "aliases": "本科六组团 | 柚园",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "学知苑20,21,22栋",
+    "latitude": "30.755572",
+    "longitude": "103.931643",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "50",
+    "name": "学知苑七组团",
+    "aliases": "本科七组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "学知苑23,24,25栋",
+    "latitude": "30.756497",
+    "longitude": "103.93252",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "51",
+    "name": "学知苑八组团",
+    "aliases": "本科八组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "学知苑26,27,28栋",
+    "latitude": "30.755578",
+    "longitude": "103.932841",
+    "c_id": "12",
+    "browse": 0
+}
+
+{
+    "_id": "52",
+    "name": "硕丰苑一组团",
+    "aliases": "硕士一组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "硕丰苑1,2,3,4栋",
+    "latitude": "30.75643",
+    "longitude": "103.930773",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "53",
+    "name": "硕丰苑二组团",
+    "aliases": "硕士二组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "硕丰苑5,6,7,8栋",
+    "latitude": "30.755167",
+    "longitude": "103.930624",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "54",
+    "name": "硕丰苑三组团",
+    "aliases": "硕士三组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "硕丰苑9,10,11栋",
+    "latitude": "30.755699",
+    "longitude": "103.934961",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "55",
+    "name": "硕丰苑四组团",
+    "aliases": "硕士四组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "硕丰苑12,13,14,15栋",
+    "latitude": "30.754951",
+    "longitude": "103.935743",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "56",
+    "name": "硕丰苑五组团",
+    "aliases": "硕士五组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "硕丰苑16,17,18,19,20栋",
+    "latitude": "30.753725",
+    "longitude": "103.936441",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "57",
+    "name": "硕丰苑六组团",
+    "aliases": "硕士六组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "硕丰苑21,22,23栋",
+    "latitude": "30.758338",
+    "longitude": "103.931775",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "58",
+    "name": "硕丰苑七组团",
+    "aliases": "硕士七组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "硕丰苑24,25,26栋",
+    "latitude": "30.757309",
+    "longitude": "103.931619",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "59",
+    "name": "硕丰苑八组团",
+    "aliases": "硕士八组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "硕丰苑27,28栋",
+    "latitude": "30.758579",
+    "longitude": "103.930812",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "60",
+    "name": "硕丰苑九组团",
+    "aliases": "硕士九组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "硕丰苑29栋",
+    "latitude": "30.757756",
+    "longitude": "103.930383",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "61",
+    "name": "硕丰苑十组团",
+    "aliases": "硕士十组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "硕丰苑30,31栋",
+    "latitude": "30.75361",
+    "longitude": "103.937941",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "62",
+    "name": "博瀚苑一组团",
+    "aliases": "博士一组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "博翰苑1,2,3,4,5,6栋",
+    "latitude": "30.751836",
+    "longitude": "103.935325",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "63",
+    "name": "博瀚苑二组团",
+    "aliases": "博士二组团",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/12Dormitory/Dormitory.png",
+    "desc": "博翰苑7,8,9栋",
+    "latitude": "30.752436",
+    "longitude": "103.936454",
+    "c_id": "12",
+    "browse": 0
+}
+{
+    "_id": "64",
+    "name": "立人托幼儿园",
+    "aliases": "",
+    "img": "cloud://cloud1-2gezxl8218856e05.636c-cloud1-2gezxl8218856e05-1323401285/Campus/13Others/KinderGarten.jpg",
+    "desc": "这是四川省第一所按照幼儿园和托育新标准设计装修的“托幼一体学校”。幼儿园把0-6岁学前教育视为一个系统的整体，考虑到婴幼儿教养目标和内容的连续和递进，在教养的方案和策略、活动的设置、师资的配备等方面实施一体化管理。",
+    "latitude": "30.751342",
+    "longitude": "103.923443",
+    "c_id": "13",
+    "browse": 0
+}
